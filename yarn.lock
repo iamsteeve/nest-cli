@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@angular-devkit/core@8.3.12":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.12.tgz#0b6303c2a810d9212d2cc4fa7f9e75f03025b63a"
+  integrity sha512-zqhhpdy4jfanxSUssTxkZAUIfpQV9G/CG+dvdqvBeQK0nppcH8a+8pIB91v8KjIbGErH1y3YXiYjAIsWwJd7RQ==
+  dependencies:
+    ajv "6.10.2"
+    fast-json-stable-stringify "2.0.0"
+    magic-string "0.25.3"
+    rxjs "6.4.0"
+    source-map "0.7.3"
+
 "@angular-devkit/core@8.3.6":
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.6.tgz#6ad4787e3cb8b03234a194dd53e12cf054a4169c"
@@ -13,18 +24,26 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics-cli@0.803.6":
-  version "0.803.6"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics-cli/-/schematics-cli-0.803.6.tgz#edf16a8c3b8a733f9e38d2a0b28b9e158b7a679e"
-  integrity sha512-1EeUwp6fU6Cz0XrCkoS/kYvKGAzNafCBJk0VexmPKgaHBdxjsUQNmc0F1Kk33cEf5bd/gkQ43HIovqZOFcsYXA==
+"@angular-devkit/schematics-cli@0.803.12":
+  version "0.803.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics-cli/-/schematics-cli-0.803.12.tgz#1bcd4d981dbbbed1897d2e9bf494246e69d6f54a"
+  integrity sha512-PNXHe1CJhyNtxRCAkVi8saLpCM0PTqeC5T1R2cYp3rJAM7tnvvGrZ4/3ZGSZbCNv+Cua3Nadzui4iVQ6q0oogw==
   dependencies:
-    "@angular-devkit/core" "8.3.6"
-    "@angular-devkit/schematics" "8.3.6"
-    "@schematics/schematics" "0.803.6"
+    "@angular-devkit/core" "8.3.12"
+    "@angular-devkit/schematics" "8.3.12"
+    "@schematics/schematics" "0.803.12"
     inquirer "6.5.1"
     minimist "1.2.0"
     rxjs "6.4.0"
     symbol-observable "1.2.0"
+
+"@angular-devkit/schematics@8.3.12":
+  version "8.3.12"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.12.tgz#a2941ddb7ec9ebde05d0d68c53e724976c27e137"
+  integrity sha512-IFmEFeKb4iGcPNwU2Gxzl73tePfUSBXWQmrbrQnOiGz3SlwyeuRCdWeP7YjtMbi8wXVm05/TvVSda5sUtTeAhA==
+  dependencies:
+    "@angular-devkit/core" "8.3.12"
+    rxjs "6.4.0"
 
 "@angular-devkit/schematics@8.3.6":
   version "8.3.6"
@@ -358,13 +377,13 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@schematics/schematics@0.803.6":
-  version "0.803.6"
-  resolved "https://registry.yarnpkg.com/@schematics/schematics/-/schematics-0.803.6.tgz#628fe91dfe596945cc7f50c14b4d2f6a7dc125dd"
-  integrity sha512-HfUEdfl2VITO0gl0unAEyqbg3EWKdOeHodUTRVRI6yrOPcQeySLkffyviR7cUG4VSHX6slTPSUcRmii+vRgdfQ==
+"@schematics/schematics@0.803.12":
+  version "0.803.12"
+  resolved "https://registry.yarnpkg.com/@schematics/schematics/-/schematics-0.803.12.tgz#725a2c104b0ded393ee29f90a5b2ea5ed889b8d8"
+  integrity sha512-qoBWz2JREK7drvJ6/AUWYZD2YOilFD0o8hOGGSE1zGr8HnKeP5kU+mPRDskvWCbD3Bh76hO0KylN1UAjsSzU3w==
   dependencies:
-    "@angular-devkit/core" "8.3.6"
-    "@angular-devkit/schematics" "8.3.6"
+    "@angular-devkit/core" "8.3.12"
+    "@angular-devkit/schematics" "8.3.12"
 
 "@types/anymatch@*":
   version "1.3.1"
